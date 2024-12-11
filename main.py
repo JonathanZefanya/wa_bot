@@ -67,7 +67,7 @@ def remove(*file_paths):
 
 @app.route("/",methods=["GET","POST"])
 def index():
-    return "Bot"
+    return "Bot by Jonathan ITI"
 
 @app.route("/webhook", methods=["GET", "POST"])
 def webhook():
